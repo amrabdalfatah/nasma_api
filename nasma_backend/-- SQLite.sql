@@ -1,0 +1,2 @@
+-- SQLite
+.mode csv
