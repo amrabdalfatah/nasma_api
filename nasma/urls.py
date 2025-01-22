@@ -5,5 +5,5 @@ urlpatterns = [
     path("users/", include("accounts.urls")),
     path("breathing/", include("breathing.urls")),
     path("pss/", include("pss.urls")),
-    path("chatbot/", include("chatbot_api.urls")),
+    path("chat/", include("chatbot.urls")),
 ]

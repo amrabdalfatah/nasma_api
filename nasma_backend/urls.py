@@ -12,3 +12,5 @@ urlpatterns = [
     path("api/schema/swagger-ui/", SpectacularSwaggerView.as_view(url_name="schema"), name="swagger-ui"),
 ]
 # localhost:8000/
+# https://www.helpguide.org/mental-health/stress/stress-management
+# https://pmc.ncbi.nlm.nih.gov/articles/PMC7349817/

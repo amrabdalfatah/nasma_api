@@ -17,7 +17,7 @@ SECRET_KEY = "django-insecure-r6(na-h=70=uowep^lz6_9^seya87)r96mih29cer)na+tmz$5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["10.0.2.2", "0.0.0.0", "192.0.0.1", "localhost"]
 
 
 # Application definition
@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     "article.apps.ArticleConfig", # Articles App
     "breathing.apps.BreathingConfig",
     "pss.apps.PssConfig",
-    "chatbot_api.apps.ChatbotApiConfig",
+    "chatbot",
 ]
 
 REST_FRAMEWORK = {
